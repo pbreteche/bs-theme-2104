@@ -11,9 +11,11 @@
 // 4. Optionnal
 @import
   "../node_modules/bootstrap/scss/root",
-  "../node_modules/bootstrap/scss/reboot";
+  "../node_modules/bootstrap/scss/reboot",
+  "../node_modules/bootstrap/scss/buttons";
 
 // 5. Components
 @import
   "layout/layout",
-  "components/banner";
+  "components/banner",
+  "components/nav-panel";
