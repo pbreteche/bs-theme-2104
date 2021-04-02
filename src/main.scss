@@ -1,0 +1,18 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+@import "abstracts/variables";
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. Optionnal
+@import
+  "../node_modules/bootstrap/scss/root",
+  "../node_modules/bootstrap/scss/reboot";
+
+// 5. Components
+@import
+  "components/banner";

@@ -6,10 +6,15 @@ npm install
 ```
 
 ## Build
-```sh
-sass src/main.scss dist/styles.css
-```
+
+### dev environment
 
 ```sh
 sass src/main.scss dist/styles.css --watch
+```
+
+### prod environment
+
+```sh
+sass src/main.scss dist/styles.css --no-source-map
 ```
