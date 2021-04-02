@@ -12,10 +12,13 @@
 @import
   "../node_modules/bootstrap/scss/root",
   "../node_modules/bootstrap/scss/reboot",
-  "../node_modules/bootstrap/scss/buttons";
+  "../node_modules/bootstrap/scss/buttons",
+  "../node_modules/bootstrap/scss/card";
 
 // 5. Components
 @import
   "layout/layout",
+  "layout/main-content",
   "components/banner",
-  "components/nav-panel";
+  "components/nav-panel",
+  "components/product-card";
