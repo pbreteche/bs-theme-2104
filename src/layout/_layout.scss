@@ -19,5 +19,6 @@ body > div {
 
   @include media-breakpoint-up(md) {
     @include make-col(3);
+    order: -1;
   }
 }
